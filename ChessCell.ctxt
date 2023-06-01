@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ChessCell
+comment0.text=\r\n\ This\ class,\ ChessCell,\ extends\ the\ Button\ class\ and\ represents\ a\ cell\ on\ the\ game\ board.\r\n\ The\ ChessCell\ is\ a\ component\ of\ the\ Harry\ Potter\ Triwizard\ Maze\ Game\ developed\ as\ part\ of\ the\ \r\n\ CNSCC110\ Software\ Development\ Coursework\ at\ Lancaster\ University\ College\ at\ BJTU.\r\n\ <p>\r\n\ Each\ ChessCell\ object\ has\ two\ attributes\:\ \r\n\ -\ card\ (boolean)\:\ A\ flag\ indicating\ whether\ the\ cell\ has\ a\ card.\r\n\ -\ chess\ (Chess)\:\ The\ chess\ piece\ that\ currently\ occupies\ this\ cell.\r\n\ <p>\r\n\ The\ ChessCell\ class\ provides\ a\ constructor\ and\ getter\ and\ setter\ methods\ for\ each\ attribute.\r\n\ \r\n\ References\:\r\n\ -\ https\://github.com/bayooow/Triwizard-MazeGame\r\n\ -\ https\://github.com/Eluny/FlyingChess\r\n\ -\ https\://github.com/hugeBlack/flyingChess\r\n\ -\ https\://github.com/apriljdai/Chinese-Flying-Chess\r\n\ -\ https\://github.com/lizi003/planegame\r\n\ -\ https\://github.com/WendellGul/FlyingChess\r\n\ \r\n\ @author\ Qiu\ Teng\ (Project\ Leader,BJTU\ ID\ 21726062)\r\n\ \r\n\ \ \ \ \ \ \ \ \ (Design\ and\ implement\ code)\r\n\ \ \ \ \ \ \ \ \ BJTU\ ID\ 21726062\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ Li\ Shaoxu\r\n\ \ \ \ \ \ \ \ \ Develop\ more\ function\ and\ version\ control\r\n\ \ \ \ \ \ \ \ \ BJTU\ ID\ 21722009\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ Li\ Yuge\r\n\ \ \ \ \ \ \ \ \ Version\ control\ and\ ensure\ that\ testing\ activities\ align\ with\ project\ goals\r\n\ \ \ \ \ \ \ \ \ BJTU\ ID\ 21722012\r\n\ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ Kuang\ Xun\r\n\ \ \ \ \ \ \ \ \ Test\ software,\ write\ report\ and\ comment\r\n\ \ \ \ \ \ \ \ \ BJTU\ ID\ 21722008\r\n\ \ \ \ \ \ \ \ \ \r\n\ @version\ 2.0\ \ \ \ \ \r\n
+comment1.params=
+comment1.target=ChessCell()
+comment1.text=\r\n\ Constructs\ a\ ChessCell.\r\n\ Also\ configures\ the\ display\ attributes\ of\ the\ cell.\r\n
+comment2.params=chess
+comment2.target=void\ setChess(Chess)
+comment2.text=\r\n\ Sets\ the\ chess\ piece\ that\ currently\ occupies\ this\ cell.\r\n\r\n\ @param\ chess\ The\ chess\ piece.\r\n
+comment3.params=
+comment3.target=Chess\ getChess()
+comment3.text=\r\n\ Returns\ the\ chess\ piece\ that\ currently\ occupies\ this\ cell.\r\n\r\n\ @return\ The\ chess\ piece.\r\n
+comment4.params=card
+comment4.target=void\ setCard(boolean)
+comment4.text=\r\n\ Sets\ the\ flag\ indicating\ whether\ the\ cell\ has\ a\ card.\r\n\r\n\ @param\ card\ The\ card\ flag.\r\n
+comment5.params=
+comment5.target=boolean\ isCard()
+comment5.text=\r\n\ Returns\ the\ flag\ indicating\ whether\ the\ cell\ has\ a\ card.\r\n\r\n\ @return\ The\ card\ flag.\r\n
+numComments=6
